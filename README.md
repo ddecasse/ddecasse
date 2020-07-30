@@ -9,4 +9,8 @@
 - ⚡ Fun fact: I love to  play guitar and watch a good movie
 
 
+### 📕 Latest Blog Posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 [website]: http://ddecasse.wordpress.com/
