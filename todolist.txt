@@ -1,0 +1,3 @@
+TODO Make a list of powershell script possibilities 
+TODO Make a  powershell script that generates the html pages 
+TODO Generate a ftp  uplaod script that places the html folders in a subfolder on a web site
