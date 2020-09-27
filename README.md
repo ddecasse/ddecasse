@@ -63,7 +63,10 @@ A sort of xml file inbox before the todoist inbox.
     	//"scope": "javascript,typescript",
     	"prefix": "MTG",
     	"body": [
-    		"<Meeting EventID=\"$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE$CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND\" Importance=\"${2|4,3,2,1|}\" CreatedDate=\"$CURRENT_MONTH/$CURRENT_DATE/$CURRENT_YEAR\" Topic=\"\" Category=\"${6|Personal,Family,Professional,DSS|}\">$5</NTD>"
+    		"<Meeting EventID=\"$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE$CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND\" Importance=\"${2|4,3,2,1|}\"
+			CreatedDate=\"$CURRENT_MONTH/$CURRENT_DATE/$CURRENT_YEAR\" 
+			Topic=\"\" 
+			Category=\"${6|Personal,Family,Professional,DSS|}\">$5</NTD>"
     	],
     	"description": "Make a Meeting"
     }
