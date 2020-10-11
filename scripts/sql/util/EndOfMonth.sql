@@ -1,0 +1,6 @@
+
+--USED TO DO THE FIRST OF THE MONTH AFTER AND SUBSTRACT A MILLISECOND 
+--EOMONTH ( start_date [, month_to_add ] )  
+
+
+SELECT cast(EOMONTH('03/10/2020',1) as datetime)
