@@ -1,0 +1,13 @@
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\bin\Debug\netcoreapp3.1\datacollector.exe
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\bin\Debug\netcoreapp3.1\datacollector.deps.json
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\bin\Debug\netcoreapp3.1\datacollector.runtimeconfig.json
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\bin\Debug\netcoreapp3.1\datacollector.runtimeconfig.dev.json
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\bin\Debug\netcoreapp3.1\datacollector.dll
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\bin\Debug\netcoreapp3.1\datacollector.pdb
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\obj\Debug\netcoreapp3.1\datacollector.csprojAssemblyReference.cache
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\obj\Debug\netcoreapp3.1\datacollector.AssemblyInfoInputs.cache
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\obj\Debug\netcoreapp3.1\datacollector.AssemblyInfo.cs
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\obj\Debug\netcoreapp3.1\datacollector.csproj.CoreCompileInputs.cache
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\obj\Debug\netcoreapp3.1\datacollector.dll
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\obj\Debug\netcoreapp3.1\datacollector.pdb
+C:\Users\Dan\OneDrive\github\profile\ddecasse\applications\datacollector\obj\Debug\netcoreapp3.1\datacollector.genruntimeconfig.cache
