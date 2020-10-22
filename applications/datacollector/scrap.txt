@@ -1,0 +1,162 @@
+
+Numbers
+Strings
+DateTime
+C# - Value & Reference Types
+C# - Anonymous Type
+C# - Dynamic Types
+C# - Interface
+C# - Operators
+C# - if else Statements
+C# - Ternary Operator ?:
+C# - Switch
+C# - For Loop
+C# - While Loop
+C# - Do-while Loop
+C# - Structure
+C# - Enum
+C# - StringBuilder
+C# - Partial Class
+C# - Static
+C# - Array
+Multidimensional Array
+Jagged Array
+C# - Indexer
+C# - Generics
+Generic Constraints
+C# - Collections
+ArrayList
+List
+SortedList
+Dictionary
+Hashtable
+Stack
+Queue
+C# - Tuple
+C# - ValueTuple
+C# - Built-in Exceptions
+Exception Handling
+throw
+Custom Exception
+C# - Delegates
+C# - Events
+C# - Anonymous Method
+C# - Nullable Types
+C# - Covariance
+C# - Func
+C# - Action
+C# - Predicate
+C# - Extension Method
+C# - Stream I/O
+C# - File
+C# - FileInfo
+C# - Object Initializer
+C# - Useful Resources
+C# - Delegates
+What if we want to pass a function as a parameter? How does C# handles the callback functions or event handler? The answer is - delegate.
+
+The delegate is a reference type data type that defines the method signature. You can define variables of delegate, just like other data type, that can refer to any method with the same signature as the delegate.
+
+There are three steps involved while working with delegates:
+
+Declare a delegate
+Set a target method
+Invoke a delegate
+A delegate can be declared using the delegate keyword followed by a function signature, as shown below.
+
+Delegate Syntax
+[access modifier] delegate [return type] [delegate name]([parameters])
+The following declares a delegate named MyDelegate.
+
+Example: Declare a Delegate
+public delegate void MyDelegate(string msg);
+Above, we have declared a delegate MyDelegate with a void return type and a string parameter. A delegate can be declared outside of the class or inside the class. Practically, it should be declared out of the class.
+
+After declaring a delegate, we need to set the target method or a lambda expression. We can do it by creating an object of the delegate using the new keyword and passing a method whose signature matches the delegate signature.
+
+Example: Set Delegate Target
+public delegate void MyDelegate(string msg); // declare a delegate
+
+// set target method
+MyDelegate del = new MyDelegate(MethodA);
+// or 
+MyDelegate del = MethodA; 
+// or set lambda expression 
+MyDelegate del = (string msg) =>  Console.WriteLine(msg);
+
+// target method
+static void MethodA(string message)
+{
+    Console.WriteLine(message);
+}
+You can set the target method by assigning a method directly without creating an object of delegate e.g., MyDelegate del = MethodA.
+
+After setting a target method, a delegate can be invoked using the Invoke() method or using the () operator.
+
+Example: Invoke a Delegate
+del.Invoke("Hello World!");
+// or 
+del("Hello World!");
+The following is a full example of a delegate.
+
+Example: Delegate
+public delegate void MyDelegate(string msg); //declaring a delegate
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        MyDelegate del = ClassA.MethodA;
+        del("Hello World");
+
+        del = ClassB.MethodB;
+        del("Hello World");
+
+        del = (string msg) => Console.WriteLine("Called lambda expression: " + msg);
+        del("Hello World");
+    }
+}
+
+class ClassA
+{
+    static void MethodA(string message)
+    {
+        Console.WriteLine("Called ClassA.MethodA() with parameter: " + message);
+    }
+}
+
+class ClassB
+{
+    static void MethodB(string message)
+    {
+        Console.WriteLine("Called ClassB.MethodB() with parameter: " + message);
+    }
+}
+The following image illustrates the delegate.
+
+delegate in C#
+C# Delegate
+Passing Delegate as a Parameter
+A method can have a parameter of the delegate type, as shown below.
+
+Example: Delegate
+public delegate void MyDelegate(string msg); //declaring a delegate
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        MyDelegate del = ClassA.MethodA;
+        InvokeDelegate(del);
+
+        del = ClassB.MethodB;
+        InvokeDelegate(del);
+
+        del = (string msg) => Console.WriteLine("Called lambda expression: " + msg);
+        InvokeDelegate(del);
+    }
+
+    static void InvokeDelegate(MyDelegate del) // MyDelegate type parameter
+    {
+        del("Hello World");
+    }
