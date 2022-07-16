@@ -160,14 +160,3 @@ https://img.shields.io/badge/LinkedIn-Dan%20Decasse-lightgrey
 [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=ddecasse)](https://twitter.com/ddecasse)
 
 <https://img.shields.io/badge/LinkedIn-Dan%20Decasse-lightgrey>
-
-//TODO: Make a gitignore file for comments to be in the project but not be in the code repository 
-//TODO: Add link to poor mans professional Blog
-//TODO: Make a QTA page or blog article concept that might spur on code or project ideas
-//TODO: basic python or powershell projects/scripts 
-//TODO: basic / intermediate SQL scripts 
-//TODO: basic web html javascript css site for what purpose 
-//QTA: payment portal that issues a digital recipt of a service that i am going to or have performed
-
-
-
