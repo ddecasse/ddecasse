@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Continuie to Grow my Skill Set
+- 🥅 2022 Goals: Continue to Grow my Skill Set
 - ⚡ Fun fact: I love to play guitar and watch a good movie
 
 ### 📕 Latest Blog Posts
